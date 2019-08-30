@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-theme-ds-player",
+  "author": "Asko Soukka <asko.soukka@iki.fi>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datakurre/gatsby-theme-ds-player.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.13.1",
+    "gatsby-image": "^2.2.15",
+    "gatsby-plugin-sharp": "^2.2.18",
+    "gatsby-transformer-sharp": "^2.2.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {},
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@actions"
+    },
+    "breadcrumbs": {
+      "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@breadcrumbs"
+    },
+    "navigation": {
+      "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@navigation"
+    },
+    "workflow": {
+      "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@workflow"
+    }
+  },
+  "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg",
+  "@type": "Image",
+  "UID": "bc1ac1d5d65a4b4b9fc9d5ed7fec5a7c",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2019-08-30T20:16:59+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg",
+  "image": {
+    "content-type": "image/jpeg",
+    "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/d72c5e78-5a17-40b0-a103-f1aa606ee5bc.jpeg",
+    "filename": "adventure-beautiful-blue-sky-666737.jpg-adventure-beautiful-blue-sky-666737.jpg",
+    "height": 2914,
+    "scales": {
+      "icon": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/5d2ba0a8-f27e-48bc-8c56-906dd2191484.jpeg",
+        "height": 23,
+        "width": 32
+      },
+      "large": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/15bac698-ee4d-4f12-98e1-77464c7ad8a1.jpeg",
+        "height": 575,
+        "width": 768
+      },
+      "listing": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/eb84e92a-abab-4fe3-bcc8-ed6e6df5b9e5.jpeg",
+        "height": 11,
+        "width": 16
+      },
+      "mini": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/327bb8f3-dbf7-4525-9ff3-949d66e76014.jpeg",
+        "height": 149,
+        "width": 200
+      },
+      "preview": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/95d4a86f-a056-4737-8f3a-2ea04040d086.jpeg",
+        "height": 299,
+        "width": 400
+      },
+      "thumb": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/f86dfd89-cab2-473e-b83a-c201fe15389a.jpeg",
+        "height": 95,
+        "width": 128
+      },
+      "tile": {
+        "download": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg/@@images/1002d565-2445-40f3-8a9c-f5f60fd7bf5e.jpeg",
+        "height": 47,
+        "width": 64
+      }
+    },
+    "size": 1810826,
+    "width": 3886
+  },
+  "is_folderish": false,
+  "language": "",
+  "layout": "image_view",
+  "modified": "2019-08-30T20:16:59+00:00",
+  "parent": {
+    "@id": "http://localhost:8080/Plone/common-room",
+    "@type": "Folder",
+    "description": "Common Room Digital Signage Images",
+    "review_state": "published",
+    "title": "Common Room"
+  },
+  "relatedItems": [],
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "adventure-beautiful-blue-sky-666737.jpg-adventure-beautiful-blue-sky-666737.jpg",
+  "version": "current"
+}

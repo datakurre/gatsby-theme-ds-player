@@ -1,0 +1,92 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@actions"
+    },
+    "breadcrumbs": {
+      "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@breadcrumbs"
+    },
+    "navigation": {
+      "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@navigation"
+    },
+    "workflow": {
+      "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@workflow"
+    }
+  },
+  "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg",
+  "@type": "Image",
+  "UID": "7ef7e6019b3148f7a3e6b6d22c6c55ad",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2019-08-30T20:17:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg",
+  "image": {
+    "content-type": "image/jpeg",
+    "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/87fde89a-5858-4324-ab03-3b2e480f67f7.jpeg",
+    "filename": "climate-change-cold-glacier-2229887.jpg-climate-change-cold-glacier-2229887.jpg",
+    "height": 3888,
+    "scales": {
+      "icon": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/c949427e-ec0e-4fde-a528-f74149909ff3.jpeg",
+        "height": 24,
+        "width": 32
+      },
+      "large": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/e469f791-13c8-4a3b-ae64-3aec99e60ffc.jpeg",
+        "height": 576,
+        "width": 768
+      },
+      "listing": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/007f7310-ca45-4aee-b0bc-01cd6de7975d.jpeg",
+        "height": 12,
+        "width": 16
+      },
+      "mini": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/454dcac5-a7a2-4483-b340-cc8faaa228e4.jpeg",
+        "height": 150,
+        "width": 200
+      },
+      "preview": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/cbe26119-682d-4444-9bef-a57e3d545595.jpeg",
+        "height": 300,
+        "width": 400
+      },
+      "thumb": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/432e85a9-2d53-424b-8b69-2999e875094e.jpeg",
+        "height": 96,
+        "width": 128
+      },
+      "tile": {
+        "download": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg/@@images/a46ed240-d7f0-4f9e-978c-16dbf46d2261.jpeg",
+        "height": 48,
+        "width": 64
+      }
+    },
+    "size": 4250867,
+    "width": 5184
+  },
+  "is_folderish": false,
+  "language": "",
+  "layout": "image_view",
+  "modified": "2019-08-30T20:17:00+00:00",
+  "parent": {
+    "@id": "http://localhost:8080/Plone/common-room",
+    "@type": "Folder",
+    "description": "Common Room Digital Signage Images",
+    "review_state": "published",
+    "title": "Common Room"
+  },
+  "relatedItems": [],
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "climate-change-cold-glacier-2229887.jpg-climate-change-cold-glacier-2229887.jpg",
+  "version": "current"
+}

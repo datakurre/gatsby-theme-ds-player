@@ -1,0 +1,32 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "http://localhost:8080/Plone/@actions"
+    },
+    "breadcrumbs": {
+      "@id": "http://localhost:8080/Plone/@breadcrumbs"
+    },
+    "navigation": {
+      "@id": "http://localhost:8080/Plone/@navigation"
+    }
+  },
+  "@id": "http://localhost:8080/Plone",
+  "@type": "Plone Site",
+  "description": "",
+  "id": "Plone",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "http://localhost:8080/Plone/common-room",
+      "@type": "Folder",
+      "description": "Common Room Digital Signage Images",
+      "review_state": "published",
+      "title": "Common Room"
+    }
+  ],
+  "items_total": 1,
+  "parent": {},
+  "tiles": {},
+  "tiles_layout": {},
+  "title": "Plone site"
+}

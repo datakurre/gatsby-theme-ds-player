@@ -1,0 +1,74 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "http://localhost:8080/Plone/common-room/@actions"
+    },
+    "breadcrumbs": {
+      "@id": "http://localhost:8080/Plone/common-room/@breadcrumbs"
+    },
+    "navigation": {
+      "@id": "http://localhost:8080/Plone/common-room/@navigation"
+    },
+    "workflow": {
+      "@id": "http://localhost:8080/Plone/common-room/@workflow"
+    }
+  },
+  "@id": "http://localhost:8080/Plone/common-room",
+  "@type": "Folder",
+  "UID": "6ac7fd2ee0cc4aefbc797f3c5cbd55c5",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2019-08-30T20:15:47+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Common Room Digital Signage Images",
+  "effective": "2019-08-30T20:15:50",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "common-room",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "http://localhost:8080/Plone/common-room/adventure-beautiful-blue-sky-666737-jpg-adventure-beautiful-blue-sky-666737.jpg",
+      "@type": "Image",
+      "description": "",
+      "review_state": null,
+      "title": "adventure-beautiful-blue-sky-666737.jpg-adventure-beautiful-blue-sky-666737.jpg"
+    },
+    {
+      "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg",
+      "@type": "Image",
+      "description": "",
+      "review_state": null,
+      "title": "blur-close-up-cold-813872.jpg-blur-close-up-cold-813872.jpg"
+    },
+    {
+      "@id": "http://localhost:8080/Plone/common-room/climate-change-cold-glacier-2229887-jpg-climate-change-cold-glacier-2229887.jpg",
+      "@type": "Image",
+      "description": "",
+      "review_state": null,
+      "title": "climate-change-cold-glacier-2229887.jpg-climate-change-cold-glacier-2229887.jpg"
+    }
+  ],
+  "items_total": 3,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "listing_view",
+  "modified": "2019-08-30T20:17:00+00:00",
+  "nextPreviousEnabled": false,
+  "parent": {
+    "@id": "http://localhost:8080/Plone",
+    "@type": "Plone Site",
+    "description": "",
+    "title": "Plone site"
+  },
+  "relatedItems": [],
+  "review_state": "published",
+  "rights": null,
+  "subjects": [],
+  "title": "Common Room",
+  "version": "current"
+}

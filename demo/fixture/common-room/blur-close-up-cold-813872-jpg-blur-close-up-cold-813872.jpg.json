@@ -1,0 +1,92 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@actions"
+    },
+    "breadcrumbs": {
+      "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@breadcrumbs"
+    },
+    "navigation": {
+      "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@navigation"
+    },
+    "workflow": {
+      "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@workflow"
+    }
+  },
+  "@id": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg",
+  "@type": "Image",
+  "UID": "418ddf5d9759401d9ebcd77f27e6ca00",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2019-08-30T20:16:59+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg",
+  "image": {
+    "content-type": "image/jpeg",
+    "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/09d423eb-7775-4b81-b75f-3f4b02d7dcca.jpeg",
+    "filename": "blur-close-up-cold-813872.jpg-blur-close-up-cold-813872.jpg",
+    "height": 2112,
+    "scales": {
+      "icon": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/5ab1a5e4-80bf-4212-bdc3-36a81dcdfb78.jpeg",
+        "height": 19,
+        "width": 32
+      },
+      "large": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/826b49b1-6709-4884-acf4-2ab6df46fdab.jpeg",
+        "height": 458,
+        "width": 768
+      },
+      "listing": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/134adf98-7079-4a4f-a80c-3e85fda8b66a.jpeg",
+        "height": 9,
+        "width": 16
+      },
+      "mini": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/36f35251-861a-40f1-8a73-5e7968a79089.jpeg",
+        "height": 119,
+        "width": 200
+      },
+      "preview": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/22139911-e324-4ef0-84c9-3aec1c4a5326.jpeg",
+        "height": 238,
+        "width": 400
+      },
+      "thumb": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/c3d5bfdb-fa63-4dbf-b700-6e2c22506fed.jpeg",
+        "height": 76,
+        "width": 128
+      },
+      "tile": {
+        "download": "http://localhost:8080/Plone/common-room/blur-close-up-cold-813872-jpg-blur-close-up-cold-813872.jpg/@@images/b49e1845-8a79-4561-9e49-c800668f2cfd.jpeg",
+        "height": 38,
+        "width": 64
+      }
+    },
+    "size": 1174930,
+    "width": 3538
+  },
+  "is_folderish": false,
+  "language": "",
+  "layout": "image_view",
+  "modified": "2019-08-30T20:16:59+00:00",
+  "parent": {
+    "@id": "http://localhost:8080/Plone/common-room",
+    "@type": "Folder",
+    "description": "Common Room Digital Signage Images",
+    "review_state": "published",
+    "title": "Common Room"
+  },
+  "relatedItems": [],
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "blur-close-up-cold-813872.jpg-blur-close-up-cold-813872.jpg",
+  "version": "current"
+}

@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- 10.1.0
+cache:
+  yarn: true
+script:
+- docker-compose up -d -f demo/docker-compose.yml
+- while ! $(curl --silent --fail --output /dev/null http://localhost:8080/); do sleep
+  1; done
+- demo/fixture/purge.sh
+- demo/fixture/import.sh
+- yarn
+- yarn workspace demo gatsby clean
+- yarn workspace demo build --prefix-paths
+- touch demo/public/.nojekyll
+deploy:
+  provider: pages
+  github_token: "$GITHUB_TOKEN"
+  local-dir: "./demo/public"
+  keep-history: false
+  skip-cleanup: true
+  target-branch: gh-pages
+  on:
+    branch: master
+env:
+  global:
+    secure: snSKjC89xt5mm1wEFU7hip77+11+J2ybRcQQOIeP2RlonN8iktvwgmL7Y/TuQEpSljEuDjr5v909Pf0XqChBwR55u8f3/UJH6b2vZ3qqcKY1kRe2TSzHzzyTqgS7DuMrO3caIxzIGpdMb5jLegsofxfp9Wjih8cIE1FUl57pVXV2/QersxjI58TS+ClBJpcz5BqZtj6ubZkkP2r2lvH/hkwYSEuZSfbPzxVKXsarZd8xWE9O4W6Ne9ALiArhp4J9P1eJyuy0rtio0KJpUdd6z69+1pJl8IuluF2mSCmhLtJ+40me7/+fNj8L1NjhZp47H0JC6iM5owAp9DNsyN47/TJR00pY+dQeT3EmhwsseBO0Q8pzkiA5a08V4fu75ggrRRG23YUlrgBDJUgnIdTPubh7jfZbpMz7IRgibor2JaRueeUvgbmIfH5/Of9OqFe7svFweKNM4GTYgeUZBUK9KqFCeYSmse3BqXokvnRJ1mwLb/P9ORi52n0a2GpT+1VSejaa6n9FKw6AD8WFgvKXSX7wmLA+pUPRghpa78IYDlavcSPzzF1wQa3wRDMJObnVsVVjrgND76h064jHWEn0yn6I6MyU8mm/8K5bQoee+bHmpVZAirJDf2GSUCmYNCW3qGC4oyJ7lb0ie2YEQ8Ov4IYs6NAW1BhoVEr8sBakHaI=
