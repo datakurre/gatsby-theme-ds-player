@@ -4,7 +4,7 @@ node_js:
 cache:
   yarn: true
 script:
-- docker-compose up -d -f demo/docker-compose.yml
+- docker-compose -f demo/docker-compose.yml up -d
 - while ! $(curl --silent --fail --output /dev/null http://localhost:8080/); do sleep
   1; done
 - demo/fixture/purge.sh
