@@ -14,7 +14,6 @@
   "dependencies": {
     "gatsby": "^2.13.1",
     "gatsby-source-plone": "https://github.com/collective/gatsby-source-plone#015897a4f730eb174625b7d89dd31023efae541c",
-    "gatsby-source-filesystem": "^2.1.18",
     "gatsby-theme-ds-player": "*",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

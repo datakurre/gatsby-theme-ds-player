@@ -10,16 +10,6 @@ module.exports = {
       resolve: 'gatsby-source-plone',
       options: {
         baseUrl: 'http://localhost:8080/Plone/',
-        logLevel: 'DEBUG',
-      },
-    },
-    // gatsby-source-filesystem must be configured
-    // to allow Plone images and files to have
-    // publicURL and be downloadable from the gatsby site
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static`,
       },
     },
     {

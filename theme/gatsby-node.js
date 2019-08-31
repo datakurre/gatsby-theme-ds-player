@@ -1,6 +1,24 @@
 exports.createPages = async (
   { graphql, actions, reporter },
-  { path = '/ds-player/', query }
+  {
+    path = '/ds-player/',
+    query = `
+{
+  allDsFolder: allPloneFolder {
+    edges {
+      node {
+        id: id
+        slug: _path
+        slides: items {
+          id: _id
+          slug: _path
+        }
+      }
+    }
+  }
+}
+  `,
+  }
 ) => {
   const { createPage } = actions;
   const result = query
